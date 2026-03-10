@@ -18,3 +18,12 @@ Components required:
 - 1 × push button
 - 1 × resistor 220 Ω (LED)
 - 2 × resistor 10 kΩ (push button)
+
+### potentiometer_led_bar
+This project implements a simple LED bar indicator controlled by a potentiometer. The ESP32 reads the analog value from the potentiometer and lights up a corresponding number of LEDs.
+
+Components required:
+- 13 × jumper M/M
+- 1 × 10 Segment LED Bar Graph (or 10 × LEDs)
+- 10 × resistor 220 Ω (LED Bar Graph)
+- 1 × Potentiometer B10K
