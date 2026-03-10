@@ -4,7 +4,7 @@ A collection of my experiments with ESP32.
 ## Hardware
 All projects in this repository are developed using:
 - ESP32-WROVER-E
-- Freenove ESP32 Extension Board
+- Freenove ESP32 GPIO Extension Board
 - Breadboard 830 tie-points
 
 ## Projects
