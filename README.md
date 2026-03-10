@@ -24,6 +24,6 @@ This project implements a simple LED bar indicator controlled by a potentiometer
 
 Components required:
 - 13 × jumper M/M
-- 1 × 10 Segment LED Bar Graph (or 10 × LEDs)
+- 1 × 10 segment LED bar graph (or 10 × LEDs)
 - 10 × resistor 220 Ω (LED Bar Graph)
-- 1 × Potentiometer B10K
+- 1 × potentiometer B10K
