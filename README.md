@@ -27,3 +27,15 @@ Components required:
 - 1 × 10 segment LED bar graph (or 10 × LED)
 - 10 × resistor 220 Ω (LED Bar Graph)
 - 1 × potentiometer B10K
+
+### button_lcd_rgb_control
+This project implements a simple RGB LED controller. User can select one of the RGB color channels and adjust its brightness using buttons. The current RGB values are displayed on the LCD, and a pointer indicates the selected color channel.
+
+Components required:
+- 10 × jumper M/M
+- 4 × jumper F/M (LCD)
+- 1 × RGB LED
+- 1 × LCD1602 Module
+- 3 × push button
+- 3 × resistor 220 Ω (RGB LED)
+- 6 × resistor 10 kΩ (push buttons)
