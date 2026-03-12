@@ -8,7 +8,7 @@ All projects in this repository are developed using:
 - Breadboard 830 tie-points
 
 <div align="center">
-  <img src="./wrover-e.jpg" width="200"/>
+  <img src="./wrover-e.jpg" width="400"/>
 </div>
 
 ## Projects
