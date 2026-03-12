@@ -53,4 +53,4 @@ Components required:
 - 1 × active buzzer
 - 1 × NPN transistor
 - 1 × resistor 1 kΩ (transistor)
-- 2 × resistor 220 (LEDs)
+- 2 × resistor 220 Ω (LEDs)
