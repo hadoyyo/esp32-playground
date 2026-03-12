@@ -7,6 +7,10 @@ All projects in this repository are developed using:
 - Freenove ESP32 GPIO Extension Board
 - Breadboard 830 tie-points
 
+<div align="center">
+  <img src="./wrover-e.jpg"/>
+</div>
+
 ## Projects
 
 ### button_toggle_led
@@ -39,3 +43,14 @@ Components required:
 - 3 × push button
 - 3 × resistor 220 Ω (RGB LED)
 - 6 × resistor 10 kΩ (push buttons)
+
+### buzzer_touch_alarm
+Simple alarm system triggered by the ESP32 touch sensor. When the sensor is touched, the ESP32 activates an alarm sequence: a buzzer sounds and two LEDs flash alternately.
+
+Components required:
+- 9 × jumper M/M
+- 2 × LED
+- 1 × active buzzer
+- 1 × NPN transistor
+- 1 × resistor 1 kΩ (transistor)
+- 2 × resistor 220 (LEDs)
