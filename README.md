@@ -54,3 +54,17 @@ Components required:
 - 1 × NPN transistor
 - 1 × resistor 1 kΩ (transistor)
 - 2 × resistor 220 Ω (LEDs)
+
+### thermistor_fan_control
+This project implements an automatic cooling system controlled by a thermistor. The ESP32 reads the temperature from a thermistor using an analog input and controls a fan based on predefined temperature thresholds. The current temperature is displayed on an LCD1602 screen using the I2C interface. When the fan is active, an animated fan icon is shown on the display to visually indicate that cooling is in progress. The system also uses hysteresis to prevent rapid switching of the fan around the threshold temperature.
+
+Components required:
+- 6 × jumper M/M
+- 4 × jumper F/M (LCD)
+- 1 × thermistor
+- 1 × NPN transistor
+- 1 × 5V brushless DC cooling fan
+- 1 × LCD1602 Module
+- 1 × rectifier diode IN4001
+- 1 × resistor 1 kΩ (transistor)
+- 1 × resistor 10 kΩ (thermistor)
