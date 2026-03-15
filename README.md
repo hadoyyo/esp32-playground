@@ -81,3 +81,14 @@ Components required:
 - 7 × LED (lamp + on/off indicators)
 - 7 × resistor 220 Ω (LEDs)
 - 3 × resistor 10 kΩ (push button + photoresistor)
+
+### wifi_clock_temp_humidity_display
+This project implements a simple environmental monitoring display using a TFT screen. The system connects to WiFi and synchronizes the current date and time using an NTP server. The current time and date are displayed on the screen and updated automatically. A DHT11 sensor is used to measure the ambient temperature and humidity. The ESP32 periodically reads the sensor values and displays them on the TFT screen.Depending on the measured values, different icons are shown to visually indicate temperature and humidity conditions. The interface also includes a small animated clock colon and graphical icons, including a cat character that changes its appearance depending on environmental conditions. This provides a simple and visually engaging way to monitor the indoor climate.
+
+<img src="./_img/img1_1.jpg" width="49%"/> <img src="./_img/img1_2.jpg" width="49%"/> <img src="./_img/img1_3.jpg" width="49%"/> <img src="./_img/img1_4.jpg" width="49%"/>
+
+Components required:
+- 12 × jumper M/M
+- TFT LCD 2,8″ display (SPI)
+- 1 × DHT11 sensor
+- 1 × resistor 10 kΩ (DHT11 sensor)
