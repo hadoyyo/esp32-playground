@@ -89,6 +89,6 @@ This project implements a simple environmental monitoring display using a TFT sc
 
 Components required:
 - 12 × jumper M/M
-- TFT LCD 2,8″ display (SPI)
+- 1 × TFT LCD 2,8″ display (SPI)
 - 1 × DHT11 sensor
 - 1 × resistor 10 kΩ (DHT11 sensor)
