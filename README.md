@@ -94,3 +94,20 @@ Components required:
 - 1 × TFT LCD 2,8″ display (SPI)
 - 1 × DHT11 sensor
 - 1 × resistor 10 kΩ (DHT11 sensor)
+
+### cam_tft_live_view
+Project implements a simple wireless image streaming system using two ESP32 boards. One ESP32 (with camera module) captures images and serves them over WiFi, while the second ESP32 downloads the image and displays it on a TFT screen in near real-time. The first ESP32 acts as an HTTP server and provides a `/capture` endpoint that returns a JPEG image. The display device periodically requests this image, decodes it using a JPEG decoder library, and renders it on the TFT screen.
+
+> [!IMPORTANT]  
+> This project requires **two** ESP32 boards.
+
+Before uploading the code for the TFT display, make sure to properly configure your display pins in the User_Setup.h file from the TFT_eSPI library. Incorrect pin configuration will prevent the display from working correctly.
+
+Components required:
+- 7 × jumper F/M
+- 2 × jumper M/M
+- 1 × OV3660 Camera Module
+- 1 × TFT LCD 2,8″ display (SPI)
+- 1 × ESP32S (second one)
+
+<img src="./_img/img3_1.jpg" width="33%"/> 
