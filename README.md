@@ -69,6 +69,8 @@ Components required:
 - 1 × resistor 1 kΩ (transistor)
 - 1 × resistor 10 kΩ (thermistor)
 
+<img src="./_img/img2_1.jpg" width="33%"/> 
+
 ### photoresistor_led_bar_lamp
 This project implements a light-responsive lamp system using a photoresistor. The ESP32 reads the ambient light level from the photoresistor using an analog input. Based on the measured light intensity, a WS2812 LED bar displays the current light level using different colors. At the same time, a simple LED lamp (composed of multiple LEDs) adjusts the number of active LEDs according to the light intensity. A push button allows the user to toggle the lamp on or off independently of the sensor readings. Additional indicator LEDs show whether the lamp system is currently enabled or disabled.
 
