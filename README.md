@@ -44,6 +44,8 @@ Components required:
 - 3 × resistor 220 Ω (RGB LED)
 - 6 × resistor 10 kΩ (push buttons)
 
+<img src="./_img/img5_1.jpg" width="24%"/>
+
 ### buzzer_touch_alarm
 Simple alarm system triggered by the ESP32 touch sensor. When the sensor is touched, the ESP32 activates an alarm sequence: a buzzer sounds and two LEDs flash alternately.
 
