@@ -131,4 +131,4 @@ Components required:
 - 1 × HC SR501 motion sensor
 - 1 × slide switch SPDT 3 pin
 
-<img src="./_img/img4_1.jpg" width="33%"/>
+<img src="./_img/img4_1.jpg" width="24%"/>
