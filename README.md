@@ -110,4 +110,25 @@ Components required:
 - 1 × TFT LCD 2,8″ display (SPI)
 - 1 × ESP32S (second one)
 
-<img src="./_img/img3_1.jpg" width="33%"/> 
+<img src="./_img/img3_1.jpg" width="33%"/>
+
+### cam_tft_motion_detection
+
+This project extends the functionality of the **cam_tft_live_view** system by adding motion-activated image capture. The system consists of two ESP32 boards working together wirelessly. The first ESP32, equipped with a camera module, operates as an HTTP server – its code remains practically identical to the one used in the **cam_tft_live_view** project, providing the same `/capture` endpoint for JPEG image delivery. The second ESP32 connects to WiFi, retrieves images from the camera server, and displays them on a TFT screen. What sets this project apart is the integration of a PIR motion sensor. The display only captures and shows the camera view when motion is detected.
+
+> [!IMPORTANT]  
+> This project requires **two** ESP32 boards.
+
+A slide switch provides manual override functionality, allowing the user to pause the automatic motion detection mode. When paused, system ignores motion events until resumed.
+
+Components required:
+- 2 × jumper F/F
+- 8 × jumper F/M
+- 4 × jumper M/M
+- 1 × OV3660 Camera Module
+- 1 × TFT LCD 2,8″ display (SPI)
+- 1 × ESP32S (second one)
+- 1 × HC SR501 motion sensor
+- 1 × slide switch SPDT 3 pin
+
+<img src="./_img/img4_1.jpg" width="33%"/>
