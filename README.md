@@ -134,3 +134,19 @@ Components required:
 - 1 × slide switch SPDT 3 pin
 
 <img src="./_img/img4_1.jpg" width="24%"/>
+
+### rfid_keypad_bomb_simulator
+Project simulates a bomb timer. The user must enter the correct code on a keypad to start a countdown sequence. During the countdown, a buzzer emits increasingly faster beeps, simulating an alarm. The system can be stopped at any time by scanning a valid RFID card. If the correct code is not entered, the system displays an error message and temporarily blocks further input. If the countdown reaches zero, a “BOOM” message is displayed and a final sound sequence is played. The current input is shown on an LCD1602 display using a masked format.
+
+Components required:
+- 12 × jumper M/M
+- 11 × jumper F/M
+- 1 × NPN transistor
+- 1 × resistor 1 kΩ (transistor)
+- 1 × active buzzer
+- 1 × matrix keypad 4x4
+- 1 × LCD1602 Module
+- 1 × RFID RC522 Module
+- 1 × RFID card/tag
+
+<img src="./_img/img6_1.jpg" width="33%"/>
