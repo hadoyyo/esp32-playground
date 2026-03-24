@@ -13,6 +13,19 @@ All projects in this repository are developed using:
 
 ## Projects
 
+### Table of Contents
+
+- [button_toggle_led](#button_toggle_led)
+- [potentiometer_led_bar](#potentiometer_led_bar)
+- [button_lcd_rgb_control](#button_lcd_rgb_control)
+- [buzzer_touch_alarm](#buzzer_touch_alarm)
+- [thermistor_fan_control](#thermistor_fan_control)
+- [photoresistor_led_bar_lamp](#photoresistor_led_bar_lamp)
+- [wifi_clock_temp_humidity_display](#wifi_clock_temp_humidity_display)
+- [cam_tft_live_view](#cam_tft_live_view)
+- [cam_tft_motion_detection](#cam_tft_motion_detection)
+- [rfid_keypad_bomb_simulator](#rfid_keypad_bomb_simulator)
+
 ### button_toggle_led
 Basic mechanism of a lamp controlled by a single button. Each time the button is pressed, the lamp (LED) changes its state.
 
