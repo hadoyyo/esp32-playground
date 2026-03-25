@@ -163,3 +163,20 @@ Components required:
 - 1 × RFID card/tag
 
 <img src="./_img/img6_1.jpg" width="33%"/>
+
+### crane_joystick_dual_motor_control
+Simple construction crane control system using a joystick. The ESP32 reads analog signals from a joystick and controls two different motors responsible for crane movement. Horizontal joystick movement (X-axis) rotates the crane using a stepper motor, allowing precise left and right positioning of the arm. Vertical movement (Y-axis) controls the lifting mechanism driven by a DC motor via an L293D driver, adjusting both direction (lifting/lowering) and speed using PWM. The DC motor speed is dynamically modulated, enabling smoother and more controlled lifting operation - and while the cardboard crane itself may look a bit rough and slightly crooked, it still gets the job done 😄.
+
+Components required:
+- 12 × jumper F/M
+- 2 × jumper F/F
+- 6 × jumper M/M
+- 1 × DC motor
+- 1 × L293D motor driver chip
+- 1 × stepper motor
+- 1 × ULN2003 stepper motor driver
+- 1 × joystick
+- 1 × 9V battery (optional)
+- 1 × 9V battery clip with DC jack (optional)
+
+<img src="./_img/img7_1.jpg" width="33%"/> <img src="./_img/img7_2.jpg" width="33%"/>
