@@ -25,6 +25,7 @@ All projects in this repository are developed using:
 - [cam_tft_live_view](#cam_tft_live_view)
 - [cam_tft_motion_detection](#cam_tft_motion_detection)
 - [rfid_keypad_bomb_simulator](#rfid_keypad_bomb_simulator)
+- [crane_joystick_dual_motor_control](#crane_joystick_dual_motor_control)
 
 ### button_toggle_led
 Basic mechanism of a lamp controlled by a single button. Each time the button is pressed, the lamp (LED) changes its state.
