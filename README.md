@@ -193,3 +193,13 @@ Components required:
 - 1 × resistor 1 kΩ (transistor)
 - 1 × passive buzzer
 - 1 × HC-SR04 ultrasonic distance sensor
+
+### mpu6050_led_matrix_direction_indicator
+This simple project implements a motion-controlled direction indicator using an MPU-6050 accelerometer and an 8×8 LED matrix. The ESP32 reads real-time acceleration data from the MPU-6050 sensor via the I2C interface and determines the orientation of the device. Based on the detected tilt direction, a corresponding arrow is displayed on the LED matrix.
+
+Components required:
+- 42 × jumper M/M
+- 1 × MPU-6050 accelerometer/gyroscope module
+- 1 × 8x8 LED matrix
+- 2 × 74HC595 serial-to-parallel chip
+- 8 × resistor 220 Ω (LED matrix)
