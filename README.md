@@ -186,7 +186,7 @@ Components required:
 <img src="./_img/img7_1.jpg" width="33%"/> <img src="./_img/img7_2.jpg" width="33%"/>
 
 ### ultrasonic_buzzer_distance_alert
-This mini project implements a simple distance-based alert system using an ultrasonic sensor and a passive buzzer. Based on the measured distance, the system generates different buzzer signals. When no object is detected within range (or the distance is greater than 60 cm), the buzzer remains silent. As an object approaches, the buzzer starts to emit intermittent beeps — the closer the object, the faster the beeping frequency. When the object is very close (10 cm or less), the buzzer emits a continuous tone. This behavior mimics a basic parking sensor, providing intuitive audio feedback about distance.
+This mini project implements a simple distance-based alert system using an ultrasonic sensor and a passive buzzer. Based on the measured distance, the system generates different buzzer signals. When no object is detected within range (or the distance is greater than 60 cm), the buzzer remains silent. As an object approaches, the buzzer starts to emit intermittent beeps - the closer the object, the faster the beeping frequency. When the object is very close (10 cm or less), the buzzer emits a continuous tone. This behavior mimics a basic parking sensor, providing intuitive audio feedback about distance.
 
 Components required:
 - 4 × jumper F/M
