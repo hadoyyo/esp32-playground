@@ -206,3 +206,19 @@ Components required:
 - 8 × resistor 220 Ω (LED matrix)
 
 <img src="./_img/img8_1.jpg" width="24%"/>
+
+### ultrasonic_room_scanner
+This project implements a simple and primitive room scanning system using an ultrasonic distance sensor mounted on a stepper motor. The ESP32 rotates the sensor step-by-step, measuring distance at fixed angle intervals to build a rough map of the surroundings. Collected data is processed and served via a built-in web server. A browser-based interface visualizes the scan in real time using a radar-like display, where measured distances are plotted as points and connected into a basic outline of the detected environment.
+
+> [!NOTE]  
+> The IP address where the scanner interface is available is displayed in the Serial Monitor after the ESP32 connects to WiFi.
+
+The system performs a full 360° sweep and then stops automatically. Due to the limitations of the ultrasonic sensor and coarse angular resolution, the resulting map is not highly accurate, but it provides a simple approximation of nearby objects and room shape.
+
+Components required:
+- 10 × jumper F/M
+- 1 × stepper motor
+- 1 × ULN2003 stepper motor driver
+- 1 × HC-SR04 ultrasonic distance sensor
+
+<img src="./_img/img9_1.png" width="24%"/>
