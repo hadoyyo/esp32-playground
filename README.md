@@ -28,6 +28,7 @@ All projects in this repository are developed using:
 - [crane_joystick_dual_motor_control](#crane_joystick_dual_motor_control)
 - [ultrasonic_buzzer_distance_alert](#ultrasonic_buzzer_distance_alert)
 - [mpu6050_led_matrix_direction_indicator](#mpu6050_led_matrix_direction_indicator)
+- [ultrasonic_room_scanner](#ultrasonic_room_scanner)
 
 ### button_toggle_led
 Basic mechanism of a lamp controlled by a single button. Each time the button is pressed, the lamp (LED) changes its state.
