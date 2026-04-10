@@ -204,3 +204,5 @@ Components required:
 - 1 × 8x8 LED matrix
 - 2 × 74HC595 serial-to-parallel chip
 - 8 × resistor 220 Ω (LED matrix)
+
+<img src="./_img/img8_1.jpg" width="24%"/>
