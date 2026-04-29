@@ -230,7 +230,8 @@ This project transforms a standard IR remote into a wireless game controller for
 
 Components required:
 - 4 × jumper M/M
-- 1 × resistor 10 kΩ
 - 1 × infrared receiver CHQ1838
+- 1 × infrared remote
+- 1 × resistor 10 kΩ (CHQ1838)
 
 <img src="./_img/img10_1.png" width="30%"/> <img src="./_img/img10_2.png" width="30%"/> <img src="./_img/img10_3.png" width="30%"/>
