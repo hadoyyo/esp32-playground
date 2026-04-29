@@ -223,3 +223,13 @@ Components required:
 - 1 × HC-SR04 ultrasonic distance sensor
 
 <img src="./_img/img9_1.png" width="24%"/>
+
+### ESPace_Invaders_ir_remote
+This project transforms a standard IR remote into a wireless game controller for a custom ESPpace Invaders game. An ESP32 reads signals from an IR receiver and sends directional commands (left/right) to a computer via serial communication. On the computer side, a Processing application runs the game, interpreting the serial data to control the player's ship. The game features multiple enemy types, animations, explosions, a starfield background, and progressively difficult levels. The system also includes a two-way communication protocol over serial for command echoing and status requests, ensuring robust interaction between the ESP32 controller and the game.
+
+Components required:
+- 4 × jumper M/M
+- 1 × resistor 10 kΩ
+- 1 × infrared receiver CHQ1838
+
+<img src="./_img/img10_1.png" width="30%"/> <img src="./_img/img10_2.png" width="30%"/> <img src="./_img/img10_3.png" width="30%"/>
