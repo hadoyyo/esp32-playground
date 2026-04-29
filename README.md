@@ -29,6 +29,7 @@ All projects in this repository are developed using:
 - [ultrasonic_buzzer_distance_alert](#ultrasonic_buzzer_distance_alert)
 - [mpu6050_led_matrix_direction_indicator](#mpu6050_led_matrix_direction_indicator)
 - [ultrasonic_room_scanner](#ultrasonic_room_scanner)
+- [ESPace_Invaders_ir_remote](#espace_invaders_ir_remote)
 
 ### button_toggle_led
 Basic mechanism of a lamp controlled by a single button. Each time the button is pressed, the lamp (LED) changes its state.
