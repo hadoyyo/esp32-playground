@@ -30,6 +30,7 @@ All projects in this repository are developed using:
 - [mpu6050_led_matrix_direction_indicator](#mpu6050_led_matrix_direction_indicator)
 - [ultrasonic_room_scanner](#ultrasonic_room_scanner)
 - [ESPace_Invaders_ir_remote](#espace_invaders_ir_remote)
+- [tft_bus_stop_display](#tft_bus_stop_display)
 
 ### button_toggle_led
 Basic mechanism of a lamp controlled by a single button. Each time the button is pressed, the lamp (LED) changes its state.
@@ -235,3 +236,36 @@ Components required:
 - 1 × resistor 10 kΩ (CHQ1838)
 
 <img src="./_img/img10_1.png" width="30%"/> <img src="./_img/img10_2.png" width="30%"/> <img src="./_img/img10_3.png" width="30%"/>
+
+### tft_bus_stop_display
+This project implements a portable, real-time public transport departure display and alarm system. It is designed for commuters in Warsaw, Poland, who want to monitor specific bus/tram stops from the comfort of their home or office.
+
+Using the city's open API, the device fetches and displays the next 4 upcoming departures in real-time, showing the line number, direction, and a live countdown timer in minutes.
+
+The user navigates a hierarchical menu structure via an IR remote. First, the user selects a specific bus/tram stop from the available options. Once a stop is chosen, the user can either:
+
+- **Select all lines at that stop** - in this mode, the display functions as a typical departure board showing the next departures for all lines serving the stop. No alarm functionality is available in this mode.
+
+- **Select a specific line** - after choosing a particular line, the user then decides between:
+  - **A single scheduled departure at a specific time** - the alarm will sound only for that exact departure.
+
+  - **All departures of that line** - the alarm will notify the user of every upcoming departure for the selected line.
+
+When the chosen bus is approaching, an active buzzer sounds to alert the user. The buzzer sequence can be silenced for the day with a single press of a push button. A long press of the same button acts as a global mute for all alarms.
+
+The user interface is fully controllable via an IR remote and receiver. The system automatically fetches and updates departures every minute using an NTP-synced clock and filters out past buses to always show the most relevant information. Night bus timetables are correctly normalized to a 24-hour format for accurate countdown calculation.
+
+Components required:
+- ~20 × jumper M/M
+- 1 × TFT LCD 2,8″ display (SPI)
+- 1 × infrared receiver CHQ1838
+- 1 × infrared remote
+- 1 × NPN transistor
+- 1 × active buzzer
+- 1 × push button
+- 3 × resistor 10 kΩ (CHQ1838 and button)
+- 1 × resistor 1 kΩ (transistor)
+
+<img src="./_img/img11_1.jpg" width="21.8%"/> <img src="./_img/img11_2.jpg" width="24%"/> <img src="./_img/img11_3.jpg" width="23.2%"/> <img src="./_img/img11_4.jpg" width="22.8%"/>
+
+<img src="./_img/img11_5.jpg" width="30%"/>
